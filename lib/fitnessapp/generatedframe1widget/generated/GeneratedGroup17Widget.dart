@@ -14,30 +14,27 @@ class GeneratedGroup17Widget extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(0.0),
       ),
-      child: Stack(
-          fit: StackFit.expand,
-          alignment: Alignment.center,
-          overflow: Overflow.visible,
-          children: [
-            Positioned(
-              left: 0.0,
-              top: 0.0,
-              right: null,
-              bottom: null,
-              width: 72.0,
-              height: 29.0,
-              child: GeneratedRectangle10Widget(),
-            ),
-            Positioned(
-              left: 10.0,
-              top: 10.0,
-              right: null,
-              bottom: null,
-              width: 67.0,
-              height: 24.0,
-              child: Generated5824Widget(),
-            )
-          ]),
+      child:
+          Stack(fit: StackFit.expand, alignment: Alignment.center, children: [
+        Positioned(
+          left: 0.0,
+          top: 0.0,
+          right: null,
+          bottom: null,
+          width: 72.0,
+          height: 29.0,
+          child: GeneratedRectangle10Widget(),
+        ),
+        Positioned(
+          left: 10.0,
+          top: 10.0,
+          right: null,
+          bottom: null,
+          width: 67.0,
+          height: 24.0,
+          child: Generated5824Widget(),
+        )
+      ]),
     );
   }
 }
