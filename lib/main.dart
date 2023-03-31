@@ -6,7 +6,7 @@ void main() {
   runApp(fitnessApp());
 }
 
-// change from branch demo
+// change from branch demo from local
 class fitnessApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
